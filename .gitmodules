@@ -1,0 +1,3 @@
+[submodule "oep-indexer"]
+	path = oep-indexer
+	url = https://github.com/Plopmenz/oep-indexer
