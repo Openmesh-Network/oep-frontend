@@ -8,11 +8,11 @@ export default function Disclaimer() {
       <Text>
         This proposal is provided for informational purposes only and does not
         constitute an offer or solicitation for investment or financial advice.
-        Participation in the Decentralized Cloud Initiative (DCI) 2024 as a
-        sponsor involves significant risks. Sponsors should perform their own
-        due diligence and fully understand the associated risks before
-        committing any resources. This initiative is strictly a sponsorship and
-        not an investment.
+        Participation in the Openmesh Expansion Program (OEP) 2024 as a sponsor
+        involves significant risks. Sponsors should perform their own due
+        diligence and fully understand the associated risks before committing
+        any resources. This initiative is strictly a sponsorship and not an
+        investment.
       </Text>
       <Text>
         <strong>Key Risks:</strong>
@@ -35,11 +35,11 @@ export default function Disclaimer() {
       </Text>
       <Text>
         <strong>Nature of Participation:</strong> This initiative is a
-        sponsorship to support the development of decentralized cloud
-        infrastructure and the Web3 ecosystem. It is not an investment. By
-        sponsoring the DCI 2024, you are contributing to a community-driven
-        effort to democratize access to decentralized cloud resources and
-        support innovation in the Web3 space.
+        sponsorship to support the growth and expansion of Openmesh&apos;s
+        infrastructure in Q3-Q4 2024. It is not an investment. By sponsoring the
+        OEP 2024, you are contributing to a community-driven mission of
+        democratizing access to decentralized infrastructure for the Web3 and
+        startup ecosystems.
       </Text>
       <Text>
         <strong>Sponsorship Details:</strong>
@@ -73,8 +73,7 @@ export default function Disclaimer() {
         you agree to indemnify, defend, and hold harmless the DAO, its members,
         and Openmesh from any claims, losses, damages, liabilities, penalties,
         actions, proceedings, judgments, or any other costs arising out of or
-        related to your participation in the initiative. This includes, but is
-        not limited to, any actions taken by end users of the virtual machines.
+        related to your participation in the initiative.
       </Text>
     </>
   )
