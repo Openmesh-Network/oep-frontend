@@ -39,6 +39,9 @@ import { Subtitle, Text } from "@/components/base"
 import Disclaimer from "@/components/custom/disclaimer"
 import { defaultChain } from "@/components/custom/web3-provider"
 
+import Summary from "./summary"
+import Tasks from "./tasks"
+
 export interface Ticket {
   ticketSize: number
   bonus: number
@@ -52,6 +55,29 @@ enum Step {
   SignTransaction,
   Completed,
 }
+
+export const rawTickets: Ticket[] = [
+  {
+    ticketSize: 25000,
+    bonus: 6.0,
+  },
+  {
+    ticketSize: 50000,
+    bonus: 12.6,
+  },
+  {
+    ticketSize: 100000,
+    bonus: 21.75,
+  },
+  {
+    ticketSize: 250000,
+    bonus: 24.75,
+  },
+  {
+    ticketSize: 500000,
+    bonus: 31.54,
+  },
+]
 
 export default function Tickets() {
   const { address, isConnected } = useAccount()
@@ -91,29 +117,7 @@ export default function Tickets() {
   const [url, setUrl] = useState<string>("")
   const [country, setCountry] = useState<ComboBoxOption | undefined>()
 
-  const [rawTickets, setRawTickets] = useState<Ticket[]>([
-    {
-      ticketSize: 25000,
-      bonus: 6.0,
-    },
-    {
-      ticketSize: 50000,
-      bonus: 12.6,
-    },
-    {
-      ticketSize: 100000,
-      bonus: 21.75,
-    },
-    {
-      ticketSize: 250000,
-      bonus: 24.75,
-    },
-    {
-      ticketSize: 500000,
-      bonus: 31.54,
-    },
-  ])
-
+  const [tickets, setTickets] = useState<Ticket[]>(rawTickets)
   useEffect(() => {
     if (!reserved) {
       return
@@ -126,10 +130,8 @@ export default function Tickets() {
           ?.transactionHash,
       }
     })
-    setRawTickets(newTickets)
-  }, [reserved])
-
-  const tickets = rawTickets
+    setTickets(newTickets)
+  }, [rawTickets, reserved])
 
   useEffect(() => {
     if (step.step === Step.None) {
@@ -317,92 +319,74 @@ export default function Tickets() {
                         email confirmation once your whitelisting is approved.
                         No asset transfer is required until you qualify.
                       </Text>
-                    </div>
-                    <div className="flex flex-wrap items-center gap-y-3 pr-3 text-left md:pr-4">
-                      <Text className="w-1/2">You Selected</Text>
-                      <Text className="w-1/2">
-                        ${step.ticket.ticketSize.toLocaleString("en-US")}
-                      </Text>{" "}
-                      <Text className="w-1/2">Cloud Credits (incl. bonus)</Text>
-                      <Text className="w-1/2">
-                        {toCloudCredits(
-                          applyBonus(step.ticket.ticketSize, step.ticket.bonus)
-                        ).toLocaleString("en-US")}
-                      </Text>
-                      <Text className="w-1/2">
-                        Exchanged for sOPEN (incl. bonus)
-                      </Text>
-                      <Text className="w-1/2">
-                        {toSOPEN(
-                          applyBonus(step.ticket.ticketSize, step.ticket.bonus)
-                        ).toLocaleString("en-US")}
-                      </Text>{" "}
-                      <Text className="w-1/2">Bonus</Text>
-                      <Text className="w-1/2">
-                        ${step.ticket.bonus.toFixed(2)}%
-                      </Text>{" "}
-                      <Text className="w-1/2">OPEN TGE Date</Text>
-                      <Text className="w-1/2">TBD</Text>
-                      <Text className="w-1/2">OPEN TGE FDM</Text>
-                      <Text className="w-1/2">TBD</Text>
-                      <Label className="w-1/3">Your Name*</Label>
-                      <Input
-                        className="w-2/3"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                      />
-                      <Label className="w-1/3">Your Email*</Label>
-                      <Input
-                        className="w-2/3"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                      />
-                      <Label className="w-1/3">Telegram/LinkedIn</Label>
-                      <Input
-                        className="w-2/3"
-                        value={social}
-                        onChange={(e) => setSocial(e.target.value)}
-                      />
-                      <Label className="w-1/3">Entity*</Label>
-                      <RadioGroup
-                        className="w-2/3 grid-cols-2 py-3"
-                        value={entity}
-                        onValueChange={setEntity}
-                      >
-                        <div className="flex grow items-center space-x-1">
-                          <RadioGroupItem value="Entity" id="entity" />
-                          <Label htmlFor="entity">Entity</Label>
-                        </div>
-                        <div className="flex grow items-center space-x-1">
-                          <RadioGroupItem value="Individual" id="individual" />
-                          <Label htmlFor="individual">Individual</Label>
-                        </div>
-                      </RadioGroup>
-                      <Label className="w-1/3">URL</Label>
-                      <Input
-                        className="w-2/3"
-                        value={url}
-                        onChange={(e) => setUrl(e.target.value)}
-                      />
-                      <Label className="w-1/3">Country*</Label>
-                      <ComboBox
-                        className="w-2/3"
-                        selectedStatus={country}
-                        setSelectedStatus={setCountry}
-                        statuses={Object.values(countries)
-                          .toSorted((c1, c2) => {
-                            if (c1.name < c2.name) {
-                              return -1
-                            }
-                            if (c1.name > c2.name) {
-                              return 1
-                            }
-                            return 0
-                          })
-                          .map((c) => {
-                            return { label: c.name, value: c.name }
-                          })}
-                      />
+                      <Summary ticket={step.ticket} />
+                      <Subtitle>Contact Information</Subtitle>
+                      <div className="flex flex-wrap items-center gap-y-3 pr-3 text-left md:pr-4">
+                        <Label className="w-1/3">Your Name*</Label>
+                        <Input
+                          className="w-2/3"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                        />
+                        <Label className="w-1/3">Your Email*</Label>
+                        <Input
+                          className="w-2/3"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <Label className="w-1/3">Telegram/LinkedIn</Label>
+                        <Input
+                          className="w-2/3"
+                          value={social}
+                          onChange={(e) => setSocial(e.target.value)}
+                        />
+                        <Label className="w-1/3">Entity*</Label>
+                        <RadioGroup
+                          className="w-2/3 grid-cols-2 py-3"
+                          value={entity}
+                          onValueChange={setEntity}
+                        >
+                          <div className="flex grow items-center space-x-1">
+                            <RadioGroupItem value="Entity" id="entity" />
+                            <Label htmlFor="entity">Entity</Label>
+                          </div>
+                          <div className="flex grow items-center space-x-1">
+                            <RadioGroupItem
+                              value="Individual"
+                              id="individual"
+                            />
+                            <Label htmlFor="individual">Individual</Label>
+                          </div>
+                        </RadioGroup>
+                        <Label className="w-1/3">URL</Label>
+                        <Input
+                          className="w-2/3"
+                          value={url}
+                          onChange={(e) => setUrl(e.target.value)}
+                        />
+                        <Label className="w-1/3">Country*</Label>
+                        <ComboBox
+                          className="w-2/3"
+                          selectedStatus={country}
+                          setSelectedStatus={setCountry}
+                          statuses={Object.values(countries)
+                            .toSorted((c1, c2) => {
+                              if (c1.name < c2.name) {
+                                return -1
+                              }
+                              if (c1.name > c2.name) {
+                                return 1
+                              }
+                              return 0
+                            })
+                            .map((c) => {
+                              return {
+                                label: c.name,
+                                value: c.name.toLowerCase(),
+                              }
+                            })}
+                        />
+                      </div>
                     </div>
                   </ScrollArea>
                 )}
@@ -417,11 +401,11 @@ export default function Tickets() {
                           approved. No asset transfer is required until you
                           qualify.
                         </Text>
-                      </div>
-                      <div className="flex flex-col gap-y-3 pr-3 text-left md:pr-4">
-                        <Subtitle>Where are the funds going?</Subtitle>
-                        <Text>OpenR&D projects</Text>
-                        <Disclaimer />
+                        <div className="flex flex-col gap-y-3 pr-3 text-left md:pr-4">
+                          <Tasks />
+                          <Subtitle>Terms</Subtitle>
+                          <Disclaimer />
+                        </div>
                       </div>
                     </ScrollArea>
                     <div className="items-top flex space-x-2 pt-1">
@@ -484,7 +468,7 @@ export default function Tickets() {
             </AlertDialogTitle>
             <AlertDialogDescription>
               Thank you! Openmesh will email you once your whitelist is
-              confirmed.
+              confirmed and ready for the next step.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
@@ -496,14 +480,14 @@ export default function Tickets() {
   )
 }
 
-function applyBonus(ticketSize: number, bonus: number): number {
+export function applyBonus(ticketSize: number, bonus: number): number {
   return ticketSize * (1 + bonus / 100)
 }
 
-function toCloudCredits(ticketSize: number): number {
+export function toCloudCredits(ticketSize: number): number {
   return ticketSize * 2.5
 }
 
-function toSOPEN(ticketSize: number): number {
+export function toSOPEN(ticketSize: number): number {
   return ticketSize * 6.5
 }
