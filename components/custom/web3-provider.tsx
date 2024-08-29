@@ -33,7 +33,7 @@ const config = defaultWagmiConfig({
   }),
   transports: {
     [mainnet.id]: http("https://eth.llamarpc.com"),
-    // [sepolia.id]: http("https://rpc2.sepolia.org"),
+    [sepolia.id]: http("https://rpc2.sepolia.org"),
   },
   auth: {
     email: false,

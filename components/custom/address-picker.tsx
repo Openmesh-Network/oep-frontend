@@ -190,7 +190,17 @@ AddressPicker.displayName = "AddressPicker"
 
 function Logo({ src }: { src?: string }) {
   return (
-    <div>{src && <Image alt="logo" src={src} width={20} height={20} />}</div>
+    <div>
+      {src && (
+        <Image
+          className="w-[20px] h-[20px]"
+          alt="logo"
+          src={src}
+          width={20}
+          height={20}
+        />
+      )}
+    </div>
   )
 }
 
