@@ -3,7 +3,7 @@ const nextConfig = {
   rewrites: () => [
     {
       source: "/indexer/:call*",
-      destination: "https://oep.plopmenz.com/indexer2/:call*",
+      destination: "https://oep.plopmenz.com/indexer/:call*",
     },
   ],
   reactStrictMode: true,
