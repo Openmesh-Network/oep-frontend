@@ -98,7 +98,12 @@ function StatusList({
   statuses: Status[]
 }) {
   return (
-    <Command>
+    <Command
+      filter={(value, search) => {
+        if (value.startsWith(search)) return 1
+        return 0
+      }}
+    >
       <CommandInput placeholder="Search" />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
