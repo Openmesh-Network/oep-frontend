@@ -116,6 +116,7 @@ export default function Tickets() {
   const [entity, setEntity] = useState<string>("")
   const [url, setUrl] = useState<string>("")
   const [country, setCountry] = useState<ComboBoxOption | undefined>()
+  const [referredBy, setReferredBy] = useState<string>("")
 
   const [tickets, setTickets] = useState<Ticket[]>(rawTickets)
   useEffect(() => {
@@ -151,6 +152,7 @@ export default function Tickets() {
         entity: entity,
         URL: url,
         country: country?.value,
+        referredBy: referredBy,
       } as User["metadata"])
       if (!walletClient) {
         toast({
@@ -385,6 +387,12 @@ export default function Tickets() {
                                 value: c.name.toLowerCase(),
                               }
                             })}
+                        />
+                        <Label className="w-1/3">Referred By</Label>
+                        <Input
+                          className="w-2/3"
+                          value={referredBy}
+                          onChange={(e) => setReferredBy(e.target.value)}
                         />
                       </div>
                     </div>
