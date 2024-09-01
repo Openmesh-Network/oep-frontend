@@ -140,7 +140,15 @@ export default function Tickets() {
     }
 
     if (!isConnected) {
-      open()
+      try {
+        open()
+      } catch (err) {
+        toast({
+          title: "Error",
+          description: "Wallet modal could not be opened.",
+          variant: "destructive",
+        })
+      }
       return
     }
 
@@ -297,9 +305,7 @@ export default function Tickets() {
       <span>You can only reserve one ticket per address.</span>
       <AlertDialog
         open={
-          isConnected &&
-          step.step >= Step.SetMetadata &&
-          step.step <= Step.AcceptDisclaimer
+          step.step >= Step.SetMetadata && step.step <= Step.AcceptDisclaimer
         }
         onOpenChange={(open) => {}}
       >
