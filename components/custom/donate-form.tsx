@@ -133,6 +133,7 @@ export function DonateForm() {
   async function assetTransfer(amount: number) {
     await performTransaction({
       transactionName: "Asset transfer",
+      simulate: false,
       transaction: async () => {
         if (tokenContract === zeroAddress) {
           if (!ethPrice) {
