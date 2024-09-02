@@ -32,7 +32,7 @@ const config = defaultWagmiConfig({
     storage: cookieStorage,
   }),
   transports: {
-    [mainnet.id]: http("https://eth.llamarpc.com"),
+    [mainnet.id]: http("https://cloudflare-eth.com"),
     [sepolia.id]: http("https://rpc2.sepolia.org"),
   },
   auth: {

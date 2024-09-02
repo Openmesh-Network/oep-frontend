@@ -26,7 +26,7 @@ export type Status = {
 }
 
 export interface ComboBoxProps {
-  className: string
+  className?: string
   statuses: Status[]
   selectedStatus?: Status
   setSelectedStatus: (status: Status | undefined) => void

@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button"
 import { Text, Title } from "../base"
 import { Card, CardFooter, CardHeader, CardTitle } from "../ui/card"
 import { Checkbox } from "../ui/checkbox"
+import { ComboBox, Status } from "../ui/combobox"
 import { Label } from "../ui/label"
 import { AddressPicker, SelectableAddresses } from "./address-picker"
 import Summary from "./summary"
@@ -40,6 +41,9 @@ export function DonateForm() {
   const [tokenContract, setTokenContract] = useState<Address>(zeroAddress)
   const [skipTest, setSkipTest] = useState<boolean>(false)
   const [complete, setComplete] = useState<boolean>(false)
+  const [amountOverride, setAmountOverride] = useState<Status | undefined>(
+    undefined
+  )
   const { data: ethPrice } = useQuery({
     queryKey: ["ethPrice"],
     queryFn: async () => {
@@ -78,7 +82,7 @@ export function DonateForm() {
   }, [reserved, address])
 
   const { data: transfers } = useQuery({
-    queryKey: ["assetTransfers", address],
+    queryKey: ["assetTransfers", address || zeroAddress],
     queryFn: async () => {
       if (!address) return undefined
 
@@ -188,15 +192,29 @@ export function DonateForm() {
     )
   }
 
-  if (yourTickets.length === 0) {
+  if (yourTickets.length === 0 && amountOverride === undefined) {
     return (
-      <span className="text-red-500">
-        Address {address} is not whitelisted.
-      </span>
+      <div className="flex flex-col space-y-2">
+        <span className="text-red-500">
+          Address {address} is not whitelisted.
+        </span>
+        <div className="space-x-3">
+          <Label>Input amount</Label>
+          <ComboBox
+            statuses={[25000, 50000, 100000, 250000, 500000].map((a) => {
+              return { label: a.toLocaleString("en-US"), value: a.toString() }
+            })}
+            selectedStatus={amountOverride}
+            setSelectedStatus={setAmountOverride}
+          />
+        </div>
+      </div>
     )
   }
 
-  const fullAmount = Number(yourTickets[0].amount)
+  const fullAmount = amountOverride
+    ? parseInt(amountOverride.value)
+    : Number(yourTickets[0].amount)
   const ticket = rawTickets.find((t) => t.ticketSize === fullAmount)
 
   return (
@@ -206,7 +224,7 @@ export function DonateForm() {
         <div className="flex flex-col space-y-2">
           <Title>Complete!</Title>
           <Text>
-            Thank you for participating. You will receive an email ones your
+            Thank you for participating. You will receive an email once your
             cloud credits are available.
           </Text>
         </div>

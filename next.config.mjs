@@ -5,6 +5,10 @@ const nextConfig = {
       source: "/indexer/:call*",
       destination: "https://oep.plopmenz.com/indexer/:call*",
     },
+    {
+      source: "/assettransfer",
+      destination: "/assetTransfer",
+    },
   ],
   reactStrictMode: true,
   webpack: (webpackConfig) => {
