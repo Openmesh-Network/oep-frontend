@@ -45,6 +45,13 @@ export default function DonatePage() {
             several OpenR&D tasks. You are recommended to perform a test
             transaction first.
           </Text>
+          <Link
+            className="text-blue-600 hover:text-blue-800 underline"
+            href="https://docs.openmesh.network/openmesh-expansion-program/how-to-perform-asset-transfer"
+            target="_blank"
+          >
+            Asset Transfer Guide
+          </Link>
           <DonateForm />
         </section>
       </section>

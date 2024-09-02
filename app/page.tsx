@@ -323,6 +323,13 @@ export default function IndexPage() {
             </ListItem>
           </Text>
           <Title id="Whitelist">Whitelist</Title>
+          <Link
+            className="text-blue-600 hover:text-blue-800 underline"
+            href="https://docs.openmesh.network/openmesh-expansion-program/how-to-whitelist"
+            target="_blank"
+          >
+            Whitelist Guide
+          </Link>
           <Tickets />
           <Title>Your tickets</Title>
           <Reserved />
