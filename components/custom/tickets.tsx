@@ -366,7 +366,7 @@ export default function Tickets() {
                             <Label htmlFor="individual">Individual</Label>
                           </div>
                         </RadioGroup>
-                        <Label className="w-1/3">URL</Label>
+                        <Label className="w-1/3">Company URL</Label>
                         <Input
                           className="w-2/3"
                           value={url}
