@@ -28,7 +28,7 @@ export default function Summary({ ticket }: { ticket: Ticket }) {
         <Text className="w-1/2">Bonus</Text>
         <Text className="w-1/2">{ticket.bonus.toFixed(2)}%</Text>{" "}
         <Text className="w-1/2">OPEN TGE Date</Text>
-        <Text className="w-1/2">TBD</Text>
+        <Text className="w-1/2">October 30th, 2024</Text>
         <Text className="w-1/2">OPEN TGE FDM</Text>
         <Text className="w-1/2">TBD</Text>
       </div>
