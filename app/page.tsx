@@ -25,6 +25,7 @@ import { Button } from "@/components/ui/button"
 import { Link, ListItem, Subtitle, Text, Title } from "@/components/base"
 import Reserved from "@/components/custom/reserved"
 import Tickets from "@/components/custom/tickets"
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 
 export default function IndexPage() {
   return (
@@ -110,6 +111,7 @@ export default function IndexPage() {
             design and verified by widely distributed independent verifiers.
           </Text>
           <Title>Openmesh Protocol & Openmesh Network</Title>
+<ScrollArea className="w-full whitespace-nowrap rounded-md border">
           <table>
             <tr>
               <td>About</td>
@@ -442,7 +444,9 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
+<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Token distribution</Title>
+<ScrollArea className="w-full whitespace-nowrap rounded-md border">
           <table>
             <tr>
               <td>
@@ -605,10 +609,12 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
+<ScrollBar orientation="horizontal" /></ScrollArea>
           <Image alt="Token distribution chart" src={tokenChart} />
           <Title>Openmesh partners</Title>
           <Image alt="Partners" src={partners} />
           <Title>Primary resource allocation</Title>
+<ScrollArea className="w-full whitespace-nowrap rounded-md border">
           <table>
             <tr>
               <td>Pre-Genesis</td>
@@ -678,7 +684,9 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
+<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Openmesh Expansion Program (OEP) 2024 Participation</Title>
+<ScrollArea className="w-full whitespace-nowrap rounded-md border">
           <table>
             <tr>
               <td>Basics</td>
@@ -765,6 +773,7 @@ export default function IndexPage() {
               <td>openmesh-network.eth</td>
             </tr>
           </table>
+<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Participation Logistics</Title>
           <Subtitle>1. Sponsors Meetup</Subtitle>
           <Text>
