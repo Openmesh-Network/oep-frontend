@@ -486,7 +486,7 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td></td>
-              <td>{" "}</td>
+              <td><br /></td>
             </tr>
             <tr>
               <td>
@@ -530,7 +530,7 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td></td>
-              <td>{" "}</td>
+              <td><br /></td>
             </tr>
             <tr>
               <td>
@@ -570,7 +570,7 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td></td>
-              <td>{" "}</td>
+              <td><br /></td>
             </tr>
             <tr>
               <td>
