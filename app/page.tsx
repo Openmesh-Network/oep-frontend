@@ -382,7 +382,7 @@ export default function IndexPage() {
               </td>
               <td>
                 A go-to place to learn, meet people, connect, and apply what
-                you've learned. Find projects to work on and earn for your
+                you have learned. Find projects to work on and earn for your
                 contributions, regardless of where you live and work, through
                 OpenR&D.
               </td>
@@ -788,7 +788,7 @@ export default function IndexPage() {
             other Openmesh services, or converted into sOPEN or OPEN tokens. As
             early backers, sponsors may also receive governance tokens as a
             token of appreciation for their support. These tokens will enable
-            sponsors to contribute to the network's governance, particularly in
+            sponsors to contribute to the network&apos;s governance, particularly in
             roles such as network operators, Verified Contributors, and Openmesh
             Verified Resource Providers.
           </Text>
@@ -834,7 +834,7 @@ export default function IndexPage() {
             indemnify, defend, and hold harmless Openmesh, its affiliates,
             employees, agents, and representatives from and against any and all
             claims, liabilities, damages, losses, or expenses (including
-            reasonable attorneys' fees) arising out of or related to their
+            reasonable attorneys&apos; fees) arising out of or related to their
             participation or contributions to Openmesh.
           </Text>
           <Text>
