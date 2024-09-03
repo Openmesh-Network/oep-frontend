@@ -740,13 +740,13 @@ export default function IndexPage() {
             <tr>
               <td>Important Links</td>
               <td>
-                <Link href="https://oep.openmesh.network">Main website</Link>
+                <Link href="https://oep.openmesh.network">Main website</Link><br />
                 <Link href="https://oep.openmesh.network/assetTransfer">
                   Asset transfer
-                </Link>
+                </Link><br />
                 <Link href="https://docs.openmesh.network/openmesh-expansion-program/how-to-whitelist">
                   Whitelist guide
-                </Link>
+                </Link><br />
                 <Link href="https://docs.openmesh.network/openmesh-expansion-program/how-to-perform-asset-transfer">
                   Asset transfer guide
                 </Link>
