@@ -111,7 +111,7 @@ export default function IndexPage() {
             design and verified by widely distributed independent verifiers.
           </Text>
           <Title>Openmesh Protocol & Openmesh Network</Title>
-<ScrollArea className="w-full whitespace-nowrap rounded-md border">
+<ScrollArea>
           <table>
             <tr>
               <td>About</td>
@@ -446,7 +446,7 @@ export default function IndexPage() {
           </table>
 <ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Token distribution</Title>
-<ScrollArea className="w-full whitespace-nowrap rounded-md border">
+<ScrollArea>
           <table>
             <tr>
               <td>
@@ -614,7 +614,7 @@ export default function IndexPage() {
           <Title>Openmesh partners</Title>
           <Image alt="Partners" src={partners} />
           <Title>Primary resource allocation</Title>
-<ScrollArea className="w-full whitespace-nowrap rounded-md border">
+<ScrollArea>
           <table>
             <tr>
               <td>Pre-Genesis</td>
@@ -686,7 +686,7 @@ export default function IndexPage() {
           </table>
 <ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Openmesh Expansion Program (OEP) 2024 Participation</Title>
-<ScrollArea className="w-full whitespace-nowrap rounded-md border">
+<ScrollArea>
           <table>
             <tr>
               <td>Basics</td>
