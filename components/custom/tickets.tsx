@@ -499,9 +499,9 @@ export function applyBonus(ticketSize: number, bonus: number): number {
 }
 
 export function toCloudCredits(ticketSize: number): number {
-  return ticketSize / (0.21 * 2.6)
+  return Math.round(ticketSize / (0.21 * 2.6))
 }
 
 export function toSOPEN(ticketSize: number): number {
-  return ticketSize / 0.21
+  return Math.round(ticketSize / 0.21)
 }
