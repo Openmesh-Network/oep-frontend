@@ -59,23 +59,23 @@ enum Step {
 export const rawTickets: Ticket[] = [
   {
     ticketSize: 25000,
-    bonus: 6.0,
+    bonus: 15.0,
   },
   {
     ticketSize: 50000,
-    bonus: 12.6,
+    bonus: 20.0,
   },
   {
     ticketSize: 100000,
-    bonus: 21.75,
+    bonus: 30.0,
   },
   {
     ticketSize: 250000,
-    bonus: 24.75,
+    bonus: 50.0,
   },
   {
     ticketSize: 500000,
-    bonus: 31.54,
+    bonus: 75.0,
   },
 ]
 
@@ -499,9 +499,9 @@ export function applyBonus(ticketSize: number, bonus: number): number {
 }
 
 export function toCloudCredits(ticketSize: number): number {
-  return ticketSize * 2.5
+  return ticketSize / (0.21 * 2.6)
 }
 
 export function toSOPEN(ticketSize: number): number {
-  return ticketSize * 6.5
+  return ticketSize / 0.21
 }
