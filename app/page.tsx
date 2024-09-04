@@ -25,7 +25,6 @@ import { Button } from "@/components/ui/button"
 import { Link, ListItem, Subtitle, Text, Title } from "@/components/base"
 import Reserved from "@/components/custom/reserved"
 import Tickets from "@/components/custom/tickets"
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 
 export default function IndexPage() {
   return (
@@ -111,8 +110,7 @@ export default function IndexPage() {
             design and verified by widely distributed independent verifiers.
           </Text>
           <Title>Openmesh Protocol & Openmesh Network</Title>
-<ScrollArea>
-          <table>
+          <table className="w-full">
             <tr>
               <td>About</td>
               <td>
@@ -444,10 +442,8 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
-<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Token distribution</Title>
-<ScrollArea>
-          <table>
+          <table className="w-full">
             <tr>
               <td>
                 <strong>Core, Network, Security & Node Operators</strong>
@@ -609,13 +605,11 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
-<ScrollBar orientation="horizontal" /></ScrollArea>
           <Image alt="Token distribution chart" src={tokenChart} />
           <Title>Openmesh partners</Title>
           <Image alt="Partners" src={partners} />
           <Title>Primary resource allocation</Title>
-<ScrollArea>
-          <table>
+          <table className="w-full">
             <tr>
               <td>Pre-Genesis</td>
               <td>
@@ -684,10 +678,9 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
-<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Openmesh Expansion Program (OEP) 2024 Participation</Title>
 <ScrollArea>
-          <table>
+          <table className="w-full">
             <tr>
               <td>Basics</td>
               <td>
@@ -762,7 +755,7 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Receiving wallet</td>
-              <td>
+              <td className="break-all">
                 <Link href="https://etherscan.io/address/0x24496D746Fd003397790E41d0d1Ce61F4F7fd61f">
                   0x24496D746Fd003397790E41d0d1Ce61F4F7fd61f
                 </Link>
@@ -773,7 +766,6 @@ export default function IndexPage() {
               <td>openmesh-network.eth</td>
             </tr>
           </table>
-<ScrollBar orientation="horizontal" /></ScrollArea>
           <Title>Participation Logistics</Title>
           <Subtitle>1. Sponsors Meetup</Subtitle>
           <Text>
