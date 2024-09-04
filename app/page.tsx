@@ -679,7 +679,6 @@ export default function IndexPage() {
             </tr>
           </table>
           <Title>Openmesh Expansion Program (OEP) 2024 Participation</Title>
-<ScrollArea>
           <table className="w-full">
             <tr>
               <td>Basics</td>
