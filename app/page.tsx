@@ -266,7 +266,7 @@ By participating in the OEP, you play a crucial role in advancing decentralized 
                 and connect with public clouds, private and public data centers,
                 and independent resource providers.
                 <br />
-- <strongOpenmeshConsensus</strong><br />
+- <strong>OpenmeshConsensus</strong><br />
 - <strong>OpenmeshPoS</strong><br />
 - <strong>The Universal Data Collector (UDC)</strong>
               </td>
