@@ -65,50 +65,51 @@ export default function IndexPage() {
           </span>
         </div>
         <section className="container absolute inset-x-0 top-[450px] grid items-center gap-6 py-10 pb-8">
-          <Title>Openmesh Expansion Program</Title>
-          <Text>
-            The Openmesh Protocol and Openmesh Network are not private
-            companies. The Openmesh Expansion Program is the first-ever
-            community funding initiative approved by OpenmeshDAO in August to
-            support the Openmesh roadmap and the expansion of Openmesh&apos;s
-            infrastructure from Q3 2024 to Q4 2025.
-          </Text>
-          <Text>
-            To date, Openmesh has never raised any funds from external sources.
-            No VCs, no private sales, no node sales, and no ICOs. Since late
-            2020, Openmesh has spent approximately $8.78 million in R&D,
-            bootstrapped by the early founders.
-          </Text>
-          <Title>Background</Title>
-          <Text>
-            We all admire the core principles of Web3 — decentralization,
-            fairness, transparency, and freedom. However, more than 82% of
-            critical Web3 infrastructure such as dApps, Web3 services, Web3
-            frontends, databases, APIs, and even validator nodes are hosted in
-            centralized clouds like AWS/GCP.
-          </Text>
-          <Text>
-            When Ethereum moved from PoW to PoS, it introduced a new problem.
-            More than 70% of Ethereum nodes are running on AWS & GCP today. The
-            largest, most active RPC providers in the entire Web3 space, not
-            just Ethereum, are centralized and privately owned. Their tech is
-            proprietary.
-          </Text>
-          <Text>
-            Most of the L1s/L2a and DLTs are backed and managed by foundations.
-            Having a private company or a non-profit foundation means having
-            shareholders and directors. Having a bank account means having
-            account holders and signatories. Having agreements between teams
-            with the foundation means people and accountabilities are tied to a
-            country or state. If governments or regulators want to shut down a
-            Web3 service, they simply tell AWS or Google to shut it down.
-          </Text>
-          <Text>
-            We envision a world where trust is built into the design, not into
-            brands or people who are running it. Instead of relying on a small
-            group of people, we should have technologies that are immutable by
-            design and verified by widely distributed independent verifiers.
-          </Text>
+<Text><strong>
+Openmesh: Powering a Decentralized Future with Permissionless Cloud Infrastructure. Seamlessly Operate Blockchain Nodes, Web3, and Web2 Apps - Free from Centralized Servers.
+</strong></Text>
+<Title>
+Decentralization Compromised
+</Title>
+<Text>
+A critical issue in Web3 is the growing dependence of blockchain nodes being hosted on centralized Web2 infrastructure. 
+</Text>
+<Text>
+More than 80% of critical Web3 infrastructure—including validator nodes, dApps, frontends, databases, and APIs—relies on centralized cloud platforms like AWS and Google Cloud. Ethereum’s transition from Proof of Work (PoW) to Proof of Stake (PoS) exacerbated this centralization, with more than 70% of Ethereum nodes now relying on these same centralized cloud providers. 
+</Text>
+<Text>
+This reliance undermines decentralization both operationally and technically, introducing avoidable vulnerabilities. If governments or regulatory authorities seek to target and terminate any Web3 service, they can direct cloud service providers, such as AWS or Google, to cease providing their services to these nodes.  Similarly, a simple change in a cloud provider&apos;s Terms of Service could disrupt or even block the ability of nodes to operate.
+</Text>
+<Text>
+The impact on blockchains and the dApps they support is substantial, calling for a solution that can restore true decentralization and resilience in Web3 infrastructure.
+</Text>
+<Title>Openmesh&apos;s Solution</Title>
+ <Text>
+Openmesh is building a fully decentralized cloud, data, and oracle network that eliminates the need for middlemen and centralized servers. By providing decentralized, permissionless cloud infrastructure, Openmesh ensures that blockchain nodes, Web3, and even Web2 applications can operate seamlessly without the threat of regulatory overreach or centralized control. With Openmesh, trust is embedded in the system itself, validated by a decentralized network of independent, anonymous validators, ensuring immutability and security by design.
+</Text>
+<Title>Principles and Governance</Title>
+<Text>
+Openmesh is built on the core principles of Web3: decentralization, transparency, immutability, and security, ensuring sovereignty for all users. These values are deeply embedded in Openmesh's design and architecture, making it a truly decentralized solution. 
+</Text>
+<Text>
+Openmesh operates under a Decentralized Autonomous Organization (DAO), not as a private company. This governance model allows for community-driven decision-making and ensures that no single entity has control over the network. Since its inception in late 2020, Openmesh has invested approximately $8.78 million in research and development, entirely bootstrapped by its early founders without any external funds, venture capital, private sales, or ICOs. This self-sustained approach demonstrates our commitment to building a resilient and independent network. The DAO structure not only aligns with our decentralization goals but also fosters a collaborative environment where all stakeholders have a voice in shaping the future of Openmesh.
+</Text>
+<Title>Community-Driven Growth</Title>
+<Text>
+The Openmesh Expansion Program (OEP) is a community-funded initiative approved by OpenmeshDAO to support the development of the Openmesh roadmap and expand its infrastructure from Q3 2024 through Q4 2025. Whitelist now—closing September 10th—to participate in Openmesh's ongoing efforts to reshape decentralized infrastructure and secure the future of Web3.
+</Text>
+<Text>
+<strong>The Openmesh Expansion Program (OEP)</strong> is a community-funded initiative approved by OpenmeshDAO to support the development of the Openmesh roadmap and expand its infrastructure from Q3 2024 through Q4 2025.
+</Text>
+<Text>
+By participating in the OEP, you play a crucial role in advancing decentralized cloud infrastructure and securing the future of Web3.
+</Text>
+<Title>Whitelist now - closing September 10th</Title>
+<Text>
+<Button className="w-64 bg-blue-600 text-lg hover:bg-blue-800" asChild>
+<NextLink href="#Whitelist">Whitelist Now</NextLink>
+</Button>
+</Text>
           <Title>Openmesh Protocol & Openmesh Network</Title>
           <table className="w-full">
             <tr>
@@ -144,17 +145,17 @@ export default function IndexPage() {
               <td>
                 Founded: Dec, 2020
                 <br />
-                Industry: Decentralized Cloud, DePin
+                Industry: Decentralized Cloud Infrastructure. Decentralized Cloud  DePin (Decentralized Physical Infrastructure Network)
                 <br />
                 Data points: 345m+
                 <br />
-                Products: 8+
+                Products: 8+ to date
                 <br />
                 Team, Active Contributors & Community: 6,400+
                 <br />
-                Integrations: 21
+                Integrations: 21 to date
                 <br />
-                Partners: 26
+                Partners: 26 to date
               </td>
             </tr>
             <tr>
@@ -172,7 +173,7 @@ export default function IndexPage() {
                 <br />
                 Decentralized infrastructure as a service
                 <br />
-                DePin
+                DePin (Decentralized Physical Infrastructure Network)
                 <br />
               </td>
             </tr>
@@ -180,7 +181,7 @@ export default function IndexPage() {
               <td>Vision & Why</td>
               <td>
                 Building the next generation of open infrastructure that will be
-                pivotal in shaping the next 10-20 years of the internet,
+                pivotal in shaping the future of permissionless internet,
                 preserving democracy, and ensuring a free flow of information.
               </td>
             </tr>
@@ -238,6 +239,8 @@ export default function IndexPage() {
             <tr>
               <td>Technologies & Products</td>
               <td>
+- <strong>XnodeOS</strong>: Efficiently managing Xnodes, ensuring security, resource optimization, and Web2/Web3 integration.<br />
+- <strong>Openmesh Resource Aggregation Layer (ORAL)</strong>: Pools and manages computational power, storage, and other network resources across Xnodes, enabling flexible, scalable, and market-driven resource provisioning.<br />
                 -{" "}
                 <Link href="https://www.openmesh.network/OpenAPI">OpenAPI</Link>
                 : One of the largest data lakes and free crypto data streaming
@@ -247,13 +250,6 @@ export default function IndexPage() {
                 Manages Openmesh network resources, including computational
                 power and storage, across various deployment environments.
                 <br />-{" "}
-                <Link href="https://www.openmesh.network/xnode/templates">
-                  Xnode Search
-                </Link>
-                : A Skyscanner-style infrastructure aggregation tool to search
-                and connect with public clouds, private and public data centers,
-                and independent resource providers.
-                <br />-{" "}
                 <Link href="https://www.openmesh.network/Pythiax">Pythia</Link>:
                 ChatGPT for web3
                 <br />-{" "}
@@ -262,87 +258,52 @@ export default function IndexPage() {
                 </Link>
                 : Design, build, visualize, deploy, and store powerful data
                 products directly in your Web3 wallet.
+                <br />-{" "}
+                <Link href="https://www.openmesh.network/xnode/templates">
+                  Xnode Search
+                </Link>
+                : A Skyscanner-style infrastructure aggregation tool to search
+                and connect with public clouds, private and public data centers,
+                and independent resource providers.
+                <br />
+- <strongOpenmeshConsensus</strong><br />
+- <strong>OpenmeshPoS</strong><br />
+- <strong>The Universal Data Collector (UDC)</strong>
               </td>
             </tr>
             <tr>
               <td>Integrations & Partners</td>
               <td>
-                Polygon, Chainlink, Aragon, MangoDB, ValidationCloud,
-                DigitalOcean, Hivelocity, Equinix, SingularityNET, Snowflake,
-                Vultr, Aiven, Confluent, Ascend, NVidia, Google Cloud,
-                Avalanche, Arbatron, IBMcloud, Cosmos, Databricks, OVHcloud,
+                Equinix, OVHcloud, Vultr, Chainlink, Polygon, Aragon, MangoDB, ValidationCloud,
+                DigitalOcean, Hivelocity, SingularityNET, Snowflake,
+                Aiven, Confluent, Ascend, NVidia, Google Cloud,
+                Avalanche, Arbatron, IBMcloud, Cosmos, Databricks,
                 Confluent, MotherDuck.
               </td>
             </tr>
             <tr>
               <td>Core Innovation & Breakthroughs</td>
               <td>
-                - Multi-purpose Infrastructure as a Service (MPIaaS)
-                <br />
-                - Decentralized infrastructure as a foundation & censorship
-                resistance by design
-                <br />
-                - Node Operator Economic Viability.
-                <br />
-                - Introducing a new kind of P2P open cloud infrastructure for
-                compute, storage, and GPUs
-                <br />
-                - Better, faster, and affordable physical infrastructure
-                <br />
-                - DePINaaS: leveraging established cloud, physical
-                infrastructure, and data center reliability to accelerate the
-                decentralized network ecosystem
-                <br />
-                - Fully democratic data layer for the world without a middleman
-                <br />
-                - A great leap in infrastructure space - introducing greater
-                user experience for infrastructure building
-                <br />
-                - Composable and interoperable network for Web2 and Web3 worlds
-                <br />- Better open governance framework for ultimate
-                transparency
+- Decentralized & Immutable Cloud as a Service.<br />
+- Xnode Studio: enabling anyone to rent their computers unused storage and bandwidth for hosting files to someone anywhere in the world. An Airbnb for cloud and Infrastructure.<br />
+- Resource Aggregation for digital commodities; Like Skyscanner for CPUs, GPUs, storage and bandwidth aggregation tool that searches and connects with public clouds, private and public data centers, and independent resource providers.<br />
+- Rapid Infrastructure-deployment-as-a-service (RIDaaS). A transformative advancement in Web2 & Web3 infrastructure design and deployment.<br />
+- Access 100,000+ Web2 & Web3 Apps<br />
+- XnodeOS: Fast, Lightweight, Runs on Raspberry Pi<br />
+- Multi-purpose Infrastructure as a Service (MPIaaS)<br />
+- World’s First Decentralized Virtual Machine (DVM)<br />
+- Node Operator Economic Viability.
               </td>
             </tr>
             <tr>
               <td>Network architecture </td>
               <td>
-                - Decentralized architecture (No middleman)
-                <br />
-                - Immutability by design
-                <br />
-                - Local Interconnectivity
-                <br />
-                - Self-Healing Systems
-                <br />
-                - Redundancy Design
-                <br />- Openmesh PoS
-              </td>
-            </tr>
-            <tr>
-              <td>Openmesh Major Highlights for 2024</td>
-              <td>
-                - <strong>September:</strong> Openmesh is giving away $100m
-                worth of cloud credit to Web3 startups, protocols, and DAOs to
-                jump-start the DePIN movement.
-                <br />- <strong>September:</strong> Artificial Superintelligence
-                Alliance RFP - Large-scale AI-optimized data center in
-                collaboration with Nvidia, The Xnode MDC (Modular Data Center).
-                <br />- <strong>September:</strong> Web3 Node Adoption
-                Initiative with Chainlink, Fantom, Polygon, Avalanche, and 6+
-                more chains.
-                <br />- <strong>October:</strong> Openmesh Cloud launch with 90%
-                lower costs than any cloud provider.
-                <br />- <strong>October:</strong> Openmesh Node Sale.
-                <br />- <strong>October:</strong> CCIP {"<>"} Xnode
-                Launch—Connecting On-chain to Web2 Infrastructure for devs, Web3
-                startups, protocols & DAOs + $5m Openmesh Cloud Resources
-                announcement.
-                <br />- <strong>October:</strong> First decentralized Xnode
-                Hardware Launch.
-                <br />- <strong>November:</strong> NYC OpenD/I 2024 Conference
-                by Openmesh.
-                <br />- <strong>December:</strong> OpenD/I Developer Conference
-                2024 by Openmesh.
+- Decentralized Network Topology: A network where nodes operate independently without reliance on a central authority.<br />
+- Immutable Ledger: Data is permanently recorded on the blockchain, ensuring it cannot be altered or tampered with.<br />
+- Local Node Interconnectivity: Nodes within the network communicate directly, ensuring efficient and distributed data exchange.<br />
+- Autonomous Recovery Mechanisms: Systems that can automatically detect and resolve failures to maintain stability and uptime.<br />
+- Redundant Consensus Protocols: Ensures continuous network operation by duplicating key processes to prevent single points of failure.<br />
+- OpenMesh Proof of Stake (PoS): A consensus mechanism where validators are selected based on the amount of stake they hold in the network.
               </td>
             </tr>
             <tr>
@@ -442,6 +403,33 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
+<Title>Go to market milestones</Title>
+<Text>
+<strong>[ Q1/Q2 2024 ]</strong>
+⚡️ Integrate Xnode with Equnix, Hivolcity, Google, Vultr, ValidationCloud, Snowflake, Aiven
+⚡️ Xnode Studio V.4.0 Beta
+⚡️ Decentralized Cloud Initiative 2024
+⚡️ Launched World’s First Decentralized Virtual Machine (DVM)
+</Text>
+<Text>
+<strong>[ Q3/Q4 2024 ]</strong>
+⚡️ Openmesh is giving away USD100m worth of cloud credit to Web3 startups, protocols, and DAOs to  jump-start the DePIN movement.
+⚡️ Artificial Superintelligence Alliance RFP - Large-scale AI-optimized data center in collaboration with Nvidia, The Xnode MDC (Modular Data Center).
+⚡️ Web3 Node Adoption Initiative with Chainlink, Fantom, Polygon, Avalanche, and 6+ more chains.
+⚡️ Openmesh Decentralized & Immutable Cloud: Up to 80% cheaper that incumbent web2 providers
+⚡️ Xnode integrations with the Solana
+⚡️ Xnode Studio v6 launch with 10,000+ apps
+⚡️ Partnership with Hackernoon to host a DePIN educational content hackathon.
+⚡️ Openmesh Node Sale.
+⚡️ Validator Nodes Rewards Beta
+⚡️ Openmesh Town Hall Event (Nvidia, Snowflake, Polygon, Databricks, MongoDB, Avien, Hivelocity, Google, and more)
+⚡️ CCIP <> Xnode Launch—Connecting On-chain to Web2 Infrastructure for devs, Web3 startups, protocols & DAOs + $5m Openmesh
+⚡️ Cloud Resources announcement.
+⚡️ Xnode Node Hardware Launch.
+⚡️ OpenD/I 2024 Conference in New York by Openmesh.
+⚡ OpenD/I Developer Conference 2024 in Bangalore by Openmesh.
+⚡OpenAPI v6 Launch
+</Text>
           <Title>Token distribution</Title>
           <table className="w-full">
             <tr>
