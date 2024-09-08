@@ -64,7 +64,7 @@ export default function IndexPage() {
             Whitelist closes on September 10th
           </span>
         </div>
-        <section className="container absolute inset-x-0 top-[450px] grid items-center gap-6 py-10 pb-8">
+        <section className="container absolute inset-x-0 top-[475px] grid items-center gap-6 py-10 pb-8">
 <Text><strong>Openmesh: Powering a Decentralized Future with Permissionless Cloud Infrastructure. Seamlessly Operate Blockchain Nodes, Web3, and Web2 Apps - Free from Centralized Servers.</strong></Text>
 <Title>Decentralization Compromised</Title>
 <Text>A critical issue in Web3 is the growing dependence of blockchain nodes being hosted on centralized Web2 infrastructure. </Text>
