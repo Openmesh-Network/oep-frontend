@@ -61,7 +61,7 @@ export default function IndexPage() {
           </Button>
           <div className="pt-1" />
           <span className="text-wrap text-xs text-secondary">
-            Whitelist closes on September 10th
+            Whitelist closes on September 26th
           </span>
         </div>
         <section className="container absolute inset-x-0 top-[475px] grid items-center gap-6 py-10 pb-8">
@@ -80,7 +80,7 @@ export default function IndexPage() {
 <Text>The Openmesh Expansion Program (OEP) is a community-funded initiative approved by OpenmeshDAO to support the development of the Openmesh roadmap and expand its infrastructure from Q3 2024 through Q4 2025. Whitelist now—closing September 10th—to participate in Openmesh&apos;s ongoing efforts to reshape decentralized infrastructure and secure the future of Web3.</Text>
 <Text><strong>The Openmesh Expansion Program (OEP)</strong> is a community-funded initiative approved by OpenmeshDAO to support the development of the Openmesh roadmap and expand its infrastructure from Q3 2024 through Q4 2025.</Text>
 <Text>By participating in the OEP, you play a crucial role in advancing decentralized cloud infrastructure and securing the future of Web3.</Text>
-<Title>Whitelist now - closing September 10th</Title>
+<Title>Whitelist now - closing September 26th</Title>
 <Text><Button className="w-64 bg-blue-600 text-lg hover:bg-blue-800" asChild>
 <NextLink href="#Whitelist">Whitelist Now</NextLink>
 </Button></Text>
@@ -261,7 +261,7 @@ export default function IndexPage() {
             <tr>
               <td>Network architecture </td>
               <td>
-- Decentralized Network Topology: A network where nodes operate independently without reliance on a central authority.<br />- Immutable Ledger: Data is permanently recorded on the blockchain, ensuring it cannot be altered or tampered with.<br />- Local Node Interconnectivity: Nodes within the network communicate directly, ensuring efficient and distributed data exchange.<br />- Autonomous Recovery Mechanisms: Systems that can automatically detect and resolve failures to maintain stability and uptime.<br />- Redundant Consensus Protocols: Ensures continuous network operation by duplicating key processes to prevent single points of failure.<br />- OpenMesh Proof of Stake (PoS): A consensus mechanism where validators are selected based on the amount of stake they hold in the network.
+- Decentralized Network Topology: A network where nodes operate independently without reliance on a central authority.<br />- Immutable Ledger: Data is permanently recorded on the blockchain, ensuring it cannot be altered or tampered with.<br />- Local Node Interconnectivity: Nodes within the network communicate directly, ensuring efficient and distributed data exchange.<br />- Autonomous Recovery Mechanisms: Systems that can automatically detect and resolve failures to maintain stability and uptime.<br />- Redundant Consensus Protocols: Ensures continuous network operation by duplicating key processes to prevent single points of failure.<br />- Openmesh Proof of Stake (PoS): A consensus mechanism where validators are selected based on the amount of stake they hold in the network.
               </td>
             </tr>
             <tr>
@@ -572,7 +572,7 @@ export default function IndexPage() {
                 Purpose: Support Q3 2024 - Q3 2025 R&D
                 <br />
                 <br />
-                Dates: Sep 01 - Sep 10, 2024
+                Dates: Sep 01 - Sep 26, 2024
                 <br />
                 Soft cap: $500,000
                 <br />
@@ -662,11 +662,11 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Whitelisting</td>
-              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 10, 2024</td>
+              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 26, 2024</td>
             </tr>
             <tr>
               <td>Payment and Confirmation Phase</td>
-              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 10, 2024</td>
+              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 26, 2024</td>
             </tr>
             <tr>
               <td>Accepted Payment Methods</td>
@@ -721,11 +721,11 @@ export default function IndexPage() {
             the sponsorship process.
           </Text>
           <Subtitle>
-            2. Payment and Confirmation Phase (Sep 01st - September 10th)
+            2. Payment and Confirmation Phase (Sep 01st - September 26th)
           </Subtitle>
           <Text>Whitelist and payment confirmation.</Text>
           <Subtitle>
-            3. Post-Participation and Minting Phase (Sep 10th, 2024 - Sep 10th,
+            3. Post-Participation and Minting Phase (Sep 26th, 2024 - Sep 26th,
             2025)
           </Subtitle>
           <Text>
