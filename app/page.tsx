@@ -61,7 +61,7 @@ export default function IndexPage() {
           </Button>
           <div className="pt-1" />
           <span className="text-wrap text-xs text-secondary">
-            Whitelist closes on September 26th
+            Whitelist closes on October 15th
           </span>
         </div>
         <section className="container absolute inset-x-0 top-[475px] grid items-center gap-6 py-10 pb-8">
@@ -137,7 +137,7 @@ export default function IndexPage() {
             The Openmesh Expansion Program (OEP) is a community-funded
             initiative approved by OpenmeshDAO to support the development of the
             Openmesh roadmap and expand its infrastructure from Q3 2024 through
-            Q4 2025. Whitelist now—closing September 10th—to participate in
+            Q4 2025. Whitelist now—closing October 15th—to participate in
             Openmesh&apos;s ongoing efforts to reshape decentralized
             infrastructure and secure the future of Web3.
           </Text>
@@ -145,7 +145,7 @@ export default function IndexPage() {
             By participating in the OEP, you play a crucial role in advancing
             decentralized cloud infrastructure and securing the future of Web3.
           </Text>
-          <Title>Whitelist now - closing September 26th</Title>
+          <Title>Whitelist now - closing October 15th</Title>
           <Text>
             <Button
               className="w-64 bg-blue-600 text-lg hover:bg-blue-800"
@@ -706,7 +706,7 @@ export default function IndexPage() {
             <tr>
               <td>Pre-Genesis</td>
               <td>
-                Dec 2020 - Sep 2024
+                Dec 2020 - Sept 2024
                 <br />
                 $8,856,898 by Openmesh founding team
               </td>
@@ -719,7 +719,7 @@ export default function IndexPage() {
                 Purpose: Support Q3 2024 - Q3 2025 R&D
                 <br />
                 <br />
-                Dates: Sep 01 - Sep 26, 2024
+                Dates: Sept 01 - Oct 15, 2024
                 <br />
                 Soft cap: $500,000
                 <br />
@@ -739,7 +739,7 @@ export default function IndexPage() {
                 accelerate the Web3 ecosystem in 2024
                 <br />
                 <br />
-                Dates: Sep 20 - Sep 30, 2024
+                Dates: Oct 15 - Oct 30, 2024
                 <br />
                 Soft cap: $1,200,000
                 <br />
@@ -759,7 +759,7 @@ export default function IndexPage() {
                 Program
                 <br />
                 <br />
-                Dates: Oct 28 - Oct 30, 2024
+                Dates: Oct 29 - begin Nov, 2024
                 <br />
                 Soft cap: $8,700,000
                 <br />
@@ -809,11 +809,11 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Whitelisting</td>
-              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 26, 2024</td>
+              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Oct 15, 2024</td>
             </tr>
             <tr>
               <td>Payment and Confirmation Phase</td>
-              <td>11:59 PM UTC, Sep 01, 2024 - 11:59 PM UTC, Sep 26, 2024</td>
+              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Oct 15, 2024</td>
             </tr>
             <tr>
               <td>Accepted Payment Methods</td>
@@ -871,11 +871,11 @@ export default function IndexPage() {
             the sponsorship process.
           </Text>
           <Subtitle>
-            2. Payment and Confirmation Phase (Sep 01st - September 26th)
+            2. Payment and Confirmation Phase (Sept 01st - Oct 15th)
           </Subtitle>
           <Text>Whitelist and payment confirmation.</Text>
           <Subtitle>
-            3. Post-Participation and Minting Phase (Sep 26th, 2024 - Sep 26th,
+            3. Post-Participation and Minting Phase (Oct 15th, 2024 - Oct 15th,
             2025)
           </Subtitle>
           <Text>
