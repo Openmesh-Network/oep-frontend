@@ -30,7 +30,7 @@ export default function Summary({ ticket }: { ticket: Ticket }) {
         <Text className="w-1/2">Market Capitalization</Text>
         <Text className="w-1/2">$8,760,000</Text>
         <Text className="w-1/2">OPEN TGE Date</Text>
-        <Text className="w-1/2">October 30th, 2024</Text>
+        <Text className="w-1/2">End 2024</Text>
       </div>
     </>
   )
