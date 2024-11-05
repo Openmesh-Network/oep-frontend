@@ -257,13 +257,6 @@ export default function IndexPage() {
                 between nodes who are listening to the same data, where a node
                 proposes message chunks as a transaction and other nodes will
                 verify that chunk.
-                <br />-{" "}
-                <Link href="https://docs.openmesh.network/products/openmesh-api/universal-data-collector-udc">
-                  The Universal Data Collector (UDC)
-                </Link>{" "}
-                is a core component of Openmesh that collects, enhances, and
-                standardizes data from various sources, including centralized
-                exchanges and blockchain nodes.
                 <br />
                 - Openmesh Resource Aggregation Layer (ORAL): Pools and manages
                 computational power, storage, and other network resources across
@@ -310,7 +303,7 @@ export default function IndexPage() {
                 : Design, build, visualize, deploy, and store powerful data
                 products directly in your Web3 wallet.
                 <br />-{" "}
-                <Link href="https://www.openmesh.network/xnode/templates">
+                <Link href="https://www.openmesh.network/xnode/app-store">
                   Xnode Search
                 </Link>
                 : A Skyscanner-style infrastructure aggregation tool to search
@@ -420,8 +413,6 @@ export default function IndexPage() {
                 <Link href="https://www.openmesh.network/Protocol">
                   Protocol & Network
                 </Link>
-                <br />
-                <Link href="https://boards.greenhouse.io/openmesh">Career</Link>
                 <br />
                 <Link href="https://circle.openmesh.network/">OpenCircle</Link>
                 <br />
