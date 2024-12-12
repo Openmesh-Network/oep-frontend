@@ -729,7 +729,7 @@ export default function IndexPage() {
                 accelerate the Web3 ecosystem
                 <br />
                 <br />
-                Dates: Dec 31, 2024 - Jan 31, 2025
+                Dates: Jan 1, 2025 - Jan 31, 2025
                 <br />
                 Soft cap: $1,200,000
                 <br />
