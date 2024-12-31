@@ -116,6 +116,7 @@ export default function Admin() {
               <span>Entity: {users[u].metadata.entity}</span>
               <span>URL: {users[u].metadata.URL}</span>
               <span>Country: {users[u].metadata.country}</span>
+              <span>Referred By: {users[u].metadata.referredBy}</span>
             </CardDescription>
           </CardHeader>
           <CardFooter>
