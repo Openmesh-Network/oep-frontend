@@ -50,7 +50,7 @@ export default function IndexPage() {
           <div className="pt-6" />
           <h1 className="whitespace-break-spaces text-4xl text-secondary md:text-6xl">
             Openmesh Expansion <br className="hidden sm:inline" />
-            Program (OEP) 2024
+            Program (OEP) 2025
           </h1>
           <div className="pt-2" />
           <Button
@@ -136,7 +136,7 @@ export default function IndexPage() {
           <Text>
             The Openmesh Expansion Program (OEP) is a community-funded
             initiative approved by OpenmeshDAO to support the development of the
-            Openmesh roadmap and expand its infrastructure from Q3 2024 through
+            Openmesh roadmap and expand its infrastructure from Q1 2025 through
             Q4 2025. Whitelist now—closing February 28th—to participate in
             Openmesh&apos;s ongoing efforts to reshape decentralized
             infrastructure and secure the future of Web3.
@@ -512,10 +512,10 @@ export default function IndexPage() {
             <ListItem>Cloud Resources announcement.</ListItem>
             <ListItem>Xnode Node Hardware Launch.</ListItem>
             <ListItem>
-              OpenD/I 2024 Conference in New York by Openmesh.
+              OpenD/I 2025 Conference in New York by Openmesh.
             </ListItem>
             <ListItem>
-              OpenD/I Developer Conference 2024 in Bangalore by Openmesh.
+              OpenD/I Developer Conference 2025 in Bangalore by Openmesh.
             </ListItem>
             <ListItem>OpenAPI v6 Launch</ListItem>
           </Text>
@@ -709,7 +709,7 @@ export default function IndexPage() {
                 Purpose: Support April Node Sale & Q1 2025 R&D
                 <br />
                 <br />
-                Dates: Feb 01 - Feb 28, 2024
+                Dates: Feb 01 - Feb 28, 2025
                 <br />
                 Soft cap: $300,000
                 <br />
@@ -761,7 +761,7 @@ export default function IndexPage() {
               </td>
             </tr>
           </table>
-          <Title>Openmesh Expansion Program (OEP) 2024 Participation</Title>
+          <Title>Openmesh Expansion Program (OEP) 2025 Participation</Title>
           <table className="w-full">
             <tr>
               <td>Basics</td>
@@ -799,11 +799,11 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Whitelisting</td>
-              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2024</td>
+              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2025</td>
             </tr>
             <tr>
               <td>Payment and Confirmation Phase</td>
-              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2024</td>
+              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2025</td>
             </tr>
             <tr>
               <td>Accepted Payment Methods</td>
@@ -865,8 +865,8 @@ export default function IndexPage() {
           </Subtitle>
           <Text>Whitelist and payment confirmation.</Text>
           <Subtitle>
-            3. Post-Participation and Minting Phase (Feb 28th, 2024 - Feb 28th,
-            2025)
+            3. Post-Participation and Minting Phase (Feb 28th, 2025 - Feb 28th,
+            2026)
           </Subtitle>
           <Text>
             Sponsors will receive Cloud Credits, redeemable as Xnodes, which can
