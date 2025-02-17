@@ -462,19 +462,19 @@ export default function IndexPage() {
           </table>
           <Title>Go to market milestones</Title>
           <Text>
-            <strong>[ Q1/Q2 2024 ]</strong>
+            <strong>[ Q1/Q2 2025 ]</strong>
             <ListItem>
               Integrate Xnode with Equnix, Hivolcity, Google, Vultr,
               ValidationCloud, Snowflake, Aiven
             </ListItem>
             <ListItem>Xnode Studio V.4.0 Beta</ListItem>
-            <ListItem>Decentralized Cloud Initiative 2024</ListItem>
+            <ListItem>Decentralized Cloud Initiative 2025</ListItem>
             <ListItem>
               Launched World&apos;s First Decentralized Virtual Machine (DVM)
             </ListItem>
           </Text>
           <Text>
-            <strong>[ Q3/Q4 2024 ]</strong>
+            <strong>[ Q3/Q4 2025 ]</strong>
             <ListItem>
               Openmesh is giving away USD100m worth of cloud credit to Web3
               startups, protocols, and DAOs to jump-start the DePIN movement.
@@ -799,11 +799,11 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Whitelisting</td>
-              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2025</td>
+              <td>11:59 PM UTC, Feb 01, 2025 - 11:59 PM UTC, Feb 28, 2025</td>
             </tr>
             <tr>
               <td>Payment and Confirmation Phase</td>
-              <td>11:59 PM UTC, Sept 01, 2024 - 11:59 PM UTC, Feb 28, 2025</td>
+              <td>11:59 PM UTC, Feb 01, 2025 - 11:59 PM UTC, Feb 28, 2025</td>
             </tr>
             <tr>
               <td>Accepted Payment Methods</td>
