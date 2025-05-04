@@ -711,9 +711,9 @@ export default function IndexPage() {
                 <br />
                 Dates: May 01 - May 31, 2025
                 <br />
-                Soft cap: $300,000
+                Soft cap: $1,500,000
                 <br />
-                MaxCap: $1,200,000
+                MaxCap: $8,000,000
                 <br />
                 sOPEN: $0.073
                 <br />
@@ -766,9 +766,9 @@ export default function IndexPage() {
             <tr>
               <td>Basics</td>
               <td>
-                Soft cap: $500,000
+                Soft cap: $1,500,000
                 <br />
-                MaxCap: $1,800,000
+                MaxCap: $8,000,000
                 <br />
                 sOPEN: $0.073
                 <br />
