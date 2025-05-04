@@ -61,7 +61,7 @@ export default function IndexPage() {
           </Button>
           <div className="pt-1" />
           <span className="text-wrap text-xs text-secondary">
-            Whitelist closes on February 28th
+            Whitelist closes on May 31st
           </span>
         </div>
         <section className="container absolute inset-x-0 top-[475px] grid items-center gap-6 py-10 pb-8">
@@ -137,7 +137,7 @@ export default function IndexPage() {
             The Openmesh Expansion Program (OEP) is a community-funded
             initiative approved by OpenmeshDAO to support the development of the
             Openmesh roadmap and expand its infrastructure from Q1 2025 through
-            Q4 2025. Whitelist now—closing February 28th—to participate in
+            Q4 2025. Whitelist now—closing May 31st—to participate in
             Openmesh&apos;s ongoing efforts to reshape decentralized
             infrastructure and secure the future of Web3.
           </Text>
@@ -145,7 +145,7 @@ export default function IndexPage() {
             By participating in the OEP, you play a crucial role in advancing
             decentralized cloud infrastructure and securing the future of Web3.
           </Text>
-          <Title>Whitelist now - closing February 28th</Title>
+          <Title>Whitelist now - closing May 31st</Title>
           <Text>
             <Button
               className="w-64 bg-blue-600 text-lg hover:bg-blue-800"
@@ -709,7 +709,7 @@ export default function IndexPage() {
                 Purpose: Support April Node Sale & Q1 2025 R&D
                 <br />
                 <br />
-                Dates: Feb 01 - Feb 28, 2025
+                Dates: May 01 - May 31, 2025
                 <br />
                 Soft cap: $300,000
                 <br />
@@ -729,7 +729,7 @@ export default function IndexPage() {
                 accelerate the Web3 ecosystem
                 <br />
                 <br />
-                Dates: Mar 1, 2025 - April 1, 2025
+                Dates: June 1, 2025 - July 1, 2025
                 <br />
                 Soft cap: $1,200,000
                 <br />
@@ -749,7 +749,7 @@ export default function IndexPage() {
                 Program
                 <br />
                 <br />
-                Dates: April
+                Dates: July 2025
                 <br />
                 Soft cap: $8,700,000
                 <br />
@@ -799,11 +799,11 @@ export default function IndexPage() {
             </tr>
             <tr>
               <td>Whitelisting</td>
-              <td>11:59 PM UTC, Feb 01, 2025 - 11:59 PM UTC, Feb 28, 2025</td>
+              <td>11:59 PM UTC, May 01, 2025 - 11:59 PM UTC, May 31, 2025</td>
             </tr>
             <tr>
               <td>Payment and Confirmation Phase</td>
-              <td>11:59 PM UTC, Feb 01, 2025 - 11:59 PM UTC, Feb 28, 2025</td>
+              <td>11:59 PM UTC, May 01, 2025 - 11:59 PM UTC, May 31, 2025</td>
             </tr>
             <tr>
               <td>Accepted Payment Methods</td>
@@ -861,11 +861,11 @@ export default function IndexPage() {
             the sponsorship process.
           </Text>
           <Subtitle>
-            2. Payment and Confirmation Phase (Sept 01st - Feb 28th)
+            2. Payment and Confirmation Phase (May 1st - May 31th)
           </Subtitle>
           <Text>Whitelist and payment confirmation.</Text>
           <Subtitle>
-            3. Post-Participation and Minting Phase (Feb 28th, 2025 - Feb 28th,
+            3. Post-Participation and Minting Phase (May 31th, 2025 - May 31th,
             2026)
           </Subtitle>
           <Text>

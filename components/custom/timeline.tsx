@@ -1,15 +1,15 @@
 export default function Timeline() {
   const items = [
     {
-      date: "July 1st - February 28th",
+      date: "July 1st - May 31st",
       description: "Whitelisting Phase",
     },
     {
-      date: "July 6th - February 28th",
+      date: "July 6th - May 31st",
       description: "Payment and Confirmation Phase",
     },
     {
-      date: "July 8th, 2024 - February 28th, 2025",
+      date: "July 8th, 2024 - May 31st, 2025",
       description: "Post-Participation and minting Phase",
     },
   ]
